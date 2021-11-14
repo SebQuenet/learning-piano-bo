@@ -1,0 +1,45 @@
+html {
+	background: rgb(250, 251, 252);
+	background-size: cover;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+	color: #495057 !important;
+	height: 100%;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.Drawer .MuiDrawer-paper {
+	display: block !important;
+	width: 150px;
+}
+
+.Main {
+	flex: 1;
+	flex-direction: column;
+	display: flex;
+	padding: 0 24px;
+	margin-top: 25px;
+}
+
+.Content {
+	flex: 1;
+	margin-bottom: 0;
+}
+
+.FormFieldHidden div:before {
+	border-bottom: none;
+}

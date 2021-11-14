@@ -1,0 +1,19 @@
+.Autocomplete div.MuiTextField-root {
+	margin: 0 !important;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+	color:green
+}
+
+.Autocomplete .MuiAutocomplete-clearIndicator, .Autocomplete .MuiAutocomplete-popupIndicator {
+	width: auto !important;
+}
+
+.Autocomplete .MuiAutocomplete-input {
+	width: 100% !important;
+}
+
+.Autocomplete .MuiAutocomplete-endAdornment {
+	display: flex !important;
+	margin: 0 !important;
+}

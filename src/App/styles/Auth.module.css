@@ -1,0 +1,142 @@
+.Auth {
+	height: 88vh;
+}
+
+.Auth .AuthMain {
+  margin: auto;
+  width: 100%;
+}
+
+.Auth .AuthMain .Form div, .Auth .AuthMain .Form p {
+  display: block;
+  margin: 10px;
+}
+
+.Auth .Title {
+  padding-top: 20px;
+  text-align: center;
+  color: #3f51b5;
+}
+
+.Auth .Description {
+	padding: 25px;
+}
+
+.Auth .AuthMain div label {
+  margin: -10px auto auto 15px;
+}
+
+.Auth .Form div {
+  margin-top: 10px;
+}
+
+.Auth .Form div label {
+  font-size: 0.8rem;
+}
+
+.Auth .Form div p {
+  margin-top: -10px !important;
+  text-align: right;
+}
+
+.Auth .Form .Remember p {
+  margin: 0;
+}
+.Auth .Form .Remember .MuiTypography-body1 {
+  font-size: 0.8rem !important;
+}
+
+.Auth .Form button {
+  width: 100%;
+}
+
+.Auth .forgotPassword {
+  margin-top: 20px !important;
+  text-align: right;
+}
+
+.Auth .forgotPassword a, .Auth .forgotPassword a:hover, .Auth .forgotPassword a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Auth .Links div {
+  padding: 0px 20px 20px 20px;
+}
+
+.Auth .Links div:nth-child(2) {
+  text-align: right;
+}
+
+.Auth .Links a, .Auth .Links a:hover, .Auth .Links a:visited {
+  text-decoration: none;
+  color: #3f51b5
+}
+
+.social {
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+.social span {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 3px 20px;
+}
+
+.social span:before, .social span:after {
+  content: '';
+  display: block;
+  width: 500px;
+  position: absolute;
+  top: 0.9em;
+  border-top: 1px solid red;
+}
+
+.social span:before {
+  right: 70%;
+}
+
+.social span:after {
+  left: 70%;
+}
+
+.Autocomplete div.MuiTextField-root {
+	margin: 0 !important;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+.Autocomplete .MuiAutocomplete-clearIndicator, .Autocomplete .MuiAutocomplete-popupIndicator {
+	width: auto !important;
+}
+
+.Autocomplete .MuiAutocomplete-input {
+	width: 100% !important;
+}
+
+.Autocomplete .MuiAutocomplete-endAdornment {
+	display: flex !important;
+	margin: 0 !important;
+}
+
+.Auth .AuthMain .Form p.CheckboxLabel {
+	margin: 0 auto auto -5px !important;
+	font-size: 0.9rem;
+}
+
+.Auth .AuthMain .Photo {
+  text-align: center;
+}
+
+.Upload {
+  width: 100%;
+  text-align: center;
+}
+
+.Upload button {
+  margin: auto 15px;
+}
