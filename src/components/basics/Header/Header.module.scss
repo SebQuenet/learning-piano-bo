@@ -1,0 +1,18 @@
+
+.header {
+	display: grid;
+  grid-template-areas: "logo nav";
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+.nav {
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-items: center;
+  margin: 1rem;
+  
+}

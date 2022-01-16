@@ -6,6 +6,9 @@ import history from './browserHistory';
 import App from './App';
 import store from './store';
 
+import './index.css';
+import './index.module.scss';
+
 ReactDOM.render(
   <Provider store={store(history)}>
     <ConnectedRouter history={history} context={ReactReduxContext}>
